@@ -1,0 +1,29 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.to-do-grid,
+.todo-input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    font-size: 20px;
+}
+.todo-input-grid{
+    margin-bottom: 10px;
+}
+
+.add-btn{
+    background-color: rgb(36, 223, 36);
+    border-width: 0px;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
+.delete-btn{
+    background-color: rgb(240, 87, 87);
+    border-width: 0px;
+    border-radius: 3px;
+    font-size: 20px;
+}
